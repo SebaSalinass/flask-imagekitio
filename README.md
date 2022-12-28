@@ -1,4 +1,4 @@
-# Flask-CKEditor-Manager
+# Flask-ImageKitIO
 
 Flask-ImageKitIO provides a simple interface to use ImageKitIO API with Flask.
 
