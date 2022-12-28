@@ -43,7 +43,7 @@ class ImagekitIO:
         base64_encode(file.stream, data)
         data.seek(0)
 
-        return self._ik.upload_file(file, file_name, options)
+        return self._ik.upload_file(data, file_name, options)
 
     def url(self, options: Dict[str, Any]) -> str:
         return self._ik.url(options)
